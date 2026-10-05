@@ -1,0 +1,5 @@
+LEVEL 5
+
+Decode the hexadecimal value below.
+
+36 37 32

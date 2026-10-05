@@ -1,0 +1,10 @@
+LEVEL 7
+
+There are several files in this directory.
+
+Only one file contains the correct answer.
+
+Use grep to search all .txt files for:
+correct
+
+Find the number.

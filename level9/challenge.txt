@@ -1,0 +1,8 @@
+LEVEL 9
+
+Find the file that has read permission for the owner
+and no permissions for group or others.
+
+Use the find command.
+
+Read the correct file and find the number.

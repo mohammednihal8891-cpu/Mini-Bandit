@@ -1,0 +1,8 @@
+LEVEL 1
+
+Find the hidden message in this file.
+
+The answer is encoded using Base64.
+
+Decode this:
+QzE3

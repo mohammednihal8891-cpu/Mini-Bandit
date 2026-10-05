@@ -1,0 +1,24 @@
+================================
+        MINI BANDIT
+        FINAL LEVEL
+================================
+
+You have collected the answers from the previous levels.
+
+Level 2 = 583
+Level 3 = 741
+Level 4 = 926
+Level 5 = 672
+Level 6 = 514
+Level 7 = 847
+Level 8 = 1
+Level 9 = 735
+
+FINAL CHALLENGE:
+
+Add all the numbers together.
+
+Then use the result as your FINAL CODE.
+
+Good luck, hacker!
+================================

@@ -1,0 +1,11 @@
+LEVEL 6
+
+Decode the Caesar cipher.
+
+Encrypted message:
+736
+
+Hint:
+Each digit was shifted by +2.
+
+Find the original number.

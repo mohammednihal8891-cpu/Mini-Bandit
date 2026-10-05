@@ -1,0 +1,12 @@
+LEVEL 2
+
+Find the number hidden in the text.
+
+Use grep to find the correct line.
+
+alpha
+hello
+code
+number=583
+test
+security
