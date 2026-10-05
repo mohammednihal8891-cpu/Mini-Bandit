@@ -23,14 +23,18 @@ echo "Decode this Base64 message:"
 echo
 echo "QzE3"
 echo
-read -p "Enter your answer: " answer
+while true
+do
+    read -p "Enter your answer: " answer
 
-if [ "$answer" != "C17" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+    if [ "$answer" = "C17" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
 
-echo "✓ Correct!"
 sleep 2
 
 
@@ -44,14 +48,19 @@ echo "Find the number:"
 echo
 echo "number=583"
 echo
-read -p "Enter your answer: " answer
 
-if [ "$answer" != "583" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+while true
+do
+    read -p "Enter your answer: " answer
 
-echo "✓ Correct!"
+    if [ "$answer" = "583" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
+
 sleep 2
 
 
@@ -67,14 +76,19 @@ echo "Find the secret number."
 echo
 echo "Hint: Owner read permission only."
 echo
-read -p "Enter your answer: " answer
 
-if [ "$answer" != "741" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+while true
+do
+    read -p "Enter your answer: " answer
 
-echo "✓ Correct!"
+    if [ "$answer" = "741" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
+
 sleep 2
 
 
@@ -90,14 +104,19 @@ echo "Hint: Use ls -la"
 echo
 echo "The hidden file contains the secret number."
 echo
-read -p "Enter your answer: " answer
 
-if [ "$answer" != "926" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+while true
+do
+    read -p "Enter your answer: " answer
 
-echo "✓ Correct!"
+    if [ "$answer" = "926" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
+
 sleep 2
 
 
@@ -111,14 +130,19 @@ echo "Decode this hexadecimal value:"
 echo
 echo "36 37 32"
 echo
-read -p "Enter your answer: " answer
 
-if [ "$answer" != "672" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+while true
+do
+    read -p "Enter your answer: " answer
 
-echo "✓ Correct!"
+    if [ "$answer" = "672" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
+
 sleep 2
 
 
@@ -134,14 +158,19 @@ echo "Encrypted number: 736"
 echo
 echo "Hint: Subtract 2 from each digit."
 echo
-read -p "Enter your answer: " answer
 
-if [ "$answer" != "514" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+while true
+do
+    read -p "Enter your answer: " answer
 
-echo "✓ Correct!"
+    if [ "$answer" = "514" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
+
 sleep 2
 
 
@@ -157,14 +186,19 @@ echo "Find the line containing:"
 echo
 echo "correct"
 echo
-read -p "Enter your answer: " answer
 
-if [ "$answer" != "847" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+while true
+do
+    read -p "Enter your answer: " answer
 
-echo "✓ Correct!"
+    if [ "$answer" = "847" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
+
 sleep 2
 
 
@@ -180,14 +214,19 @@ echo "c4ca4238a0b923820dcc509a6f75849b"
 echo
 echo "Hint: Test numbers from 0 to 9."
 echo
-read -p "Enter your answer: " answer
 
-if [ "$answer" != "1" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+while true
+do
+    read -p "Enter your answer: " answer
 
-echo "✓ Correct!"
+    if [ "$answer" = "1" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
+
 sleep 2
 
 
@@ -203,22 +242,27 @@ echo "Hint: Use find."
 echo
 echo "Read the secret file."
 echo
-read -p "Enter your answer: " answer
 
-if [ "$answer" != "735" ]; then
-    echo "Wrong answer!"
-    exit
-fi
+while true
+do
+    read -p "Enter your answer: " answer
 
-echo "✓ Correct!"
+    if [ "$answer" = "735" ]; then
+        echo "✓ Correct!"
+        break
+    else
+        echo "✗ Wrong answer! Try again."
+    fi
+done
+
 sleep 2
 
 
-# FINAL LEVEL
+# LEVEL 10
 clear
 echo "========================================"
-echo "             LEVEL 10"
-echo "          FINAL CHALLENGE"
+echo "          LEVEL 10"
+echo "       FINAL CHALLENGE"
 echo "========================================"
 echo
 echo "You have completed all previous levels!"
@@ -227,13 +271,22 @@ echo "Calculate the final code:"
 echo
 echo "583 + 741 + 926 + 672 + 514 + 847 + 1 + 735"
 echo
-read -p "Enter FINAL CODE: " answer
 
-if [ "$answer" != "5019" ]; then
-    echo
-    echo "Wrong final code!"
-    exit
-fi
+while true
+do
+    read -p "Enter FINAL CODE: " answer
+
+    if [ "$answer" = "5019" ]; then
+        echo
+        echo "✓ Correct!"
+        break
+    else
+        echo
+        echo "✗ Wrong final code! Try again."
+    fi
+done
+
+sleep 2
 
 clear
 
