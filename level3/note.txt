@@ -1,0 +1,12 @@
+LEVEL 3 - FILE PERMISSIONS
+
+A secret number is stored in a protected file.
+
+Your task is to find the secret number.
+
+Hints:
+1. Use `ls -l` to inspect file permissions.
+2. Look for a file that only the owner can read.
+3. Use `cat` to read the file if you have permission.
+
+The secret number is your answer.

@@ -37,27 +37,29 @@ done
 
 sleep 2
 
-
 # LEVEL 2
 clear
 echo "========================================"
 echo "             LEVEL 2"
 echo "========================================"
 echo
-echo "Find the number:"
+echo "LINUX COMMAND CHALLENGE"
 echo
-echo "number=583"
+echo "Find the secret number using Linux commands."
+echo
+echo "Hint: Use ls, grep and cat."
+echo "Challenge files are inside the level2 folder."
 echo
 
 while true
 do
-    read -p "Enter your answer: " answer
+    read -p "Enter the secret number: " answer
 
-    if [ "$answer" = "583" ]; then
-        echo "✓ Correct!"
+    if [ "$answer" = "847" ]; then
+        echo "Correct! Level 2 completed."
         break
     else
-        echo "✗ Wrong answer! Try again."
+        echo "Wrong answer! Try again."
     fi
 done
 
@@ -70,11 +72,14 @@ echo "========================================"
 echo "             LEVEL 3"
 echo "========================================"
 echo
-echo "A secret is protected by file permissions."
+echo "A secret number is stored in a protected file."
 echo
 echo "Find the secret number."
 echo
-echo "Hint: Owner read permission only."
+echo "Hint: Use ls -l to inspect file permissions."
+echo "Look for a file that only the owner can read."
+echo "Use cat to read the file if you have permission."
+echo
 echo
 
 while true
@@ -91,29 +96,30 @@ done
 
 sleep 2
 
-
 # LEVEL 4
 clear
 echo "========================================"
 echo "             LEVEL 4"
 echo "========================================"
 echo
-echo "Find the hidden file."
+echo "LINUX FILE SEARCH CHALLENGE"
 echo
-echo "Hint: Use ls -la"
+echo "Several files are stored in different directories."
+echo "Find the file named secret.txt."
 echo
-echo "The hidden file contains the secret number."
+echo "Hint: Use find to locate the file."
+echo "Then use cat to read its contents."
 echo
 
 while true
 do
-    read -p "Enter your answer: " answer
+    read -p "Enter the secret number: " answer
 
-    if [ "$answer" = "926" ]; then
-        echo "✓ Correct!"
+    if [ "$answer" = "638" ]; then
+        echo "Correct! Level 4 completed."
         break
     else
-        echo "✗ Wrong answer! Try again."
+        echo "Wrong answer! Try again."
     fi
 done
 
@@ -182,16 +188,16 @@ echo "========================================"
 echo
 echo "Search the files using grep."
 echo
-echo "Find the line containing:"
+echo "Find the secret number in the files."
 echo
-echo "correct"
+echo "Hint: Search for the word SECRET."
+echo "The answer is a three-digit number."
 echo
-
 while true
 do
     read -p "Enter your answer: " answer
 
-    if [ "$answer" = "847" ]; then
+    if [ "$answer" = "592" ]; then
         echo "✓ Correct!"
         break
     else

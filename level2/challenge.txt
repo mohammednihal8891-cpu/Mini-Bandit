@@ -1,12 +1,13 @@
-LEVEL 2
+Mini-Bandit - Level 2
 
-Find the number hidden in the text.
+Find the secret number using Linux commands.
 
-Use grep to find the correct line.
+Hint:
+1. List the files using ls.
+2. Search for the word SECRET using grep.
+3. Read the matching line.
 
-alpha
-hello
-code
-number=583
-test
-security
+Files:
+note1.txt
+note2.txt
+note3.txt

@@ -1,0 +1,13 @@
+MINI-BANDIT - LEVEL 4
+Challenge: Find the Secret File
+
+Several files are stored in different directories.
+
+Your task is to locate the file named secret.txt and find the secret number inside it.
+
+Hints:
+1. Use the find command.
+2. Search for a file named secret.txt.
+3. Use cat to read the file.
+
+Enter the secret number to complete Level 4.
