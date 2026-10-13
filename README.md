@@ -16,20 +16,20 @@ The project contains 10 levels. Each level introduces a different cybersecurity 
 - Wrong answers can be retried
 - Different cybersecurity concepts in each level
 - Final challenge with a calculated code
+- Retry support for incorrect answers
 
 ## 🧩 Levels
 
 1. Base64 Decoding
-2. grep
+2. Linux Commands (ls, grep, cat)
 3. File Permissions
-4. Hidden Files
-5. Hexadecimal
+4. File Searching using find
+5. Hexadecimal Decoding
 6. Caesar Cipher
-7. File Searching
+7. File Searching using grep
 8. MD5 Hash
-9. find + Permissions
+9. find + File Permissions
 10. Final Calculation
-
 ## 🚀 How to Run
 
 ```bash
